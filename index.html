@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yourname.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>NAVAJ vichhi</h1>
+        <h2>Software Developer / Web Developer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-google"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Software Developer</h1>
+        <section>
+            <div class="con-box3">
+                <p class="p1">Real Estet Project</p>
+                <p class="p2"> 
+                    <li>The main objective of this mini project is to bring the real estate industry online and enabling real estate industry participants to benefit from the Internet.</li><br>
+                    <li>Site acts as an interface between Individuals, brokers and realtors. Here the user can advertise his property for buying or for selling.</li><br>
+                    <li>1. Mobile-Friendly Design</li>
+                   <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Asp .Net</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;mvc architecture</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Sql Sarver</div>
+                    </div>
+                </p>
+            </div>
+            <div class="con-box3">
+                <p class="p1">Car Delership Project</p>
+                <p class="p2"> 
+                    <li>A car dealership, or car dealer, is a sells new or used cars, at the retail level, based on a dealership contract with an automaker or its sales subsidiary. users on click to call the car dealer easily.</li><br>
+                   <li>This simple project is entitled Auto Dealer Management System. This is a web-based application project developed in PHP and MySQL Database. This simple project provides an automated and online platform for the Used Auto or Cars Dealer Businesses to manage their records and daily transactions. </li>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;php</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;mvc architecture</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;my sql sarver</div>
+                    </div>
+                </p>
+            </div>
+            <div class="con-box3">
+                <p class="p1">Online Examination Software</p>
+                <p class="p2"> 
+                    <li>An online examination softtware in c#. a software application that allows users to take exams or tests online.</li><br>
+                    <li>Test creation and management: The software would allow teachers or administrators to create tests.</li><br>
+                    <li>The software test-takers ccannot cheat by using unautorizes resources or communicating with other test-takers.</li><br>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;sql sarver</div>
+                    </div>
+                </p>
+            </div>
+            <button class="btn_one">Hello</button>
+            <button class="btn_two">More Projects</button>
+        </section>
+    </div>
+    <div id="about_container" class="container container2">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About Me</h1>
+            <section>
+                <p class="con-p">Hi, My name is NAVAJ VICHHI. I come from Rajkot, Gujrat, India and I am 20 year. I look forward to being in your Company  because I am always enthusiastic about learning more and curious about what your class has to offer. I am a dedicated people who enjoys challenges. Some of my hobbies include Traveling, Foody And Lirn new skil.</p>
+                <p class="con-p">I am hard working and enthusiastic about learning new skills. I am well organised and always meet deadlines when they have been set. I find it easy working with other people but can also work well independently. I have shown that I am a trustworthy and responsible person in school and at home.</p><hr><br><br>
+                <h1 style="color: red">Education</h1>
+                <div class="con-box" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-33748420642494-2;">
+                    <div class="">
+                        <img class="education-roundedimg" src="img/sau.png" alt="Saurastra University"></div>
+                    <div class="education-card-right">
+                        <p class="education-text-school">Saurastra University</p>
+                        <h6 class="education-text-collage">Sarvodaya collage</h6>
+                        <div class="education-text-details">
+                            <p class="">Bachelor of Science in Information Technology. (Bsc.it)</p>
+                            <p class="">September 2021 - April 2024</p>
+                            <p class="">CGPA- 8.55</p>
+                        </div>
+                    </div>
+                </div>
+            </section><hr><br><br>
+            <section>
+                <h1 style="color: red;">Skills</h1>
+                <h2>Design</h2>
+                <div class="con-box1">
+                    <img src="img/html.png" alt="Html Image" class="img">
+                    <img src="img/css.png" alt="css Image" class="img">
+                    <img src="img/boot.png" alt="bootstrap Image" class="img">
+                    <img src="img/js.png" alt="javascript Image" class="img">
+                </div><br>
+                <h2>Backend</h2>
+                <div class="con-box1">
+                    <img src="img/sql.png" alt="sql Image" class="img">
+                    <img src="img/my-sql.png" alt="my-sql Image" class="img">
+                    <img src="img/oracal.png" alt="oracal Image" class="img">
+                </div><br>
+                <h2>Language</h2>
+                <div class="con-box1">
+                    <img src="img/net.png" alt=".net Image" class="img">
+                    <img src="img/cs.png" alt="c# Image" class="img">
+                    <img src="img/java.png" alt="java Image" class="img">
+                    <img src="img/php.png" alt="php Image" class="img">
+                </div><br>
+                <h2>Learning</h2>
+                <div class="con-box1">
+                    <img src="img/react.png" alt="react Image" class="img">
+                    <img src="img/flutter.png" alt="flutter Image" class="img">
+                    <img src="img/react-nat.png" alt="react-nativ Image" class="img">
+                    <img src="img/node.png" alt="node js Image" class="img">
+                </div><br>
+                <h2>Coding Software Used</h2>
+                <div class="con-box1">
+                    <img src="img/not.png" alt="notpad Image" class="img">
+                    <img src="img/sub.png" alt="sublimetext Image" class="img">
+                    <img src="img/vs.png" alt="vs code Image" class="img">
+                    <img src="img/vs-code.png" alt="visual studio Image" class="img">
+                    <img src="img/android.png" alt="android studio Image" class="img">
+                </div><br>
+            </section>
+
+        </div>
+          <div id="contact_container" class="container container1">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact Me</h1>
+                <div class="div1">
+                    <div class="box3">
+                        <p class="p1">Reach Out to me!</p>
+                        <p class="p2">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
+                        <h3 class="p3">Numbur:<span class="span1">+91 9313124469</span></h3>
+                        <h3 class="p3">Email:<span class="span1">navajvichhi@gmail.com</span></h3>
+                        <h3 class="p3">Address:<span class="span1">Rajkot, Gujrat, India</span></h3>
+                        <div class="con-box2">
+                            <p class="animated zoomIn" style="animation-delay:2.8s;"><a href="tel:9313124469" class="social social1"><i class="fa fa-phone"></i></a></p>
+                            <p class="animated zoomIn" style="animation-delay:2.8s;"><a href="mailto:navajvichhi@gmail.com" class="social social1"><i class="fab fa-google"></i></a></p>
+                            <p class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://in.linkedin.com/in/navaj-vichhi-658338241" class="social social1"><i class="fab fa-linkedin"></i></a></p>
+                            <p class="animated zoomIn" style="animation-delay:2.6s;"><a href="#" class="social social1"><i class="fab fa-instagram"></i></a></p>
+                            <p class="animated zoomIn" style="animation-delay:2.2s;"><a href="#" class="social social1"><i class="fab fa-facebook"></i></a></p>
+                            <p class="animated zoomIn" style="animation-delay:2.8s;"><a href="#" class="social social1 social2"><i class="fa fa-envelope"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="box4">
+                        <h2>contact Us</h2>
+                        <form class="box5">
+                            <input type="text" placeholder="name" required="">
+                            <input type="email" placeholder="email" required=""><br>
+                            <textarea placeholder="your message" required="" rows="2"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form>
+                    </div>  
+                </div>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
